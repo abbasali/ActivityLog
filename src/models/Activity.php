@@ -64,6 +64,7 @@ class Activity extends Eloquent {
 		$activity->custom1      = isset($data['custom1'])     ? $data['custom1']     : null;
 		$activity->custom2      = isset($data['custom2'])     ? $data['custom2']     : null;
 		$activity->custom3      = isset($data['custom3'])     ? $data['custom3']     : null;
+		$activity->custom4      = isset($data['custom4'])     ? $data['custom4']     : null;
 
 		//set action and allow "updated" boolean to replace activity text "Added" or "Created" with "Updated"
 		if (isset($data['updated'])) {
